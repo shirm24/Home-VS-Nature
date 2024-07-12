@@ -1,27 +1,27 @@
-section img {
+section{
     display: grid;
     place-items: center;
 }
 
 /*כאן יהיה האזור הראשי*/
 #homepic {
-    width: 30%;
+    width: 34%;
     position: relative;
-    top: 100px;
-    right: 140px;
+    top: 50px;
+    right: 65px;
 }
 
 #vspic {
     width: 8%;
     position: relative;
-    top: 80px;
-    right: 680px;
+    top: -393px;
+    right: 595px;
 }
 
 #naturepic {
     width: 38%;
     position: relative;
-    top: 50px;
+    top: -872px;
     right: 750px;
 }
 /*כאן יהיה האזור הראשי*/
