@@ -3,6 +3,7 @@ section img {
     height: auto;
     left: 0%;
     position: absolute;
+    vertical-align: middle;
 }
 
 /*כאן יהיה האזור הראשי*/
