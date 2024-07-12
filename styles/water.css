@@ -1,0 +1,36 @@
+﻿h1 {
+    top: 20px;
+    position: relative;
+}
+
+.gridWater {
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    position: relative;
+    right: 50px;
+}
+
+div a {
+    text-decoration-line: none;
+    color: #001B39;
+}
+
+.gridWater img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.gridWater:hover {
+    transform: scale(1.05)
+}
+
+#h3Water {
+    text-align: center
+}
