@@ -1,0 +1,43 @@
+﻿#nature {
+    text-align: right;
+    right: 150px;
+    top: 35px;
+    position: relative;
+}
+
+#explainNature {
+    position: relative;
+    top: 10px;
+    right: 80px;
+    text-align: right;
+}
+
+#photoNature {
+    position: absolute;
+    top: 120px;
+    right: 850px;
+    width: 500px;
+}
+
+.natureType {
+    width: 40%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /*יוצר שני טורים אחד ליד השני*/
+    gap: 30px;
+    padding-top: 8px;
+}
+
+.natureType a {
+    background-color: #9AB700;
+    color: #001B39;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.natureType a:hover {
+    background-color: #82A213;
+}

@@ -1,0 +1,135 @@
+﻿body {
+    direction: rtl;
+    background-color: #E0F2F5;
+    font-family: Assistant;
+    font-size: 18px;
+    width: 1280px;
+    margin: 0 auto;
+    color: #001B39;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+    height: auto;
+}
+
+/*כאן מופיעים כל חלקי ההאדר*/
+header {
+    width: auto;
+    height: 50px;
+    background-color: #001B39;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    z-index: 1;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #E0F2F5;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 5px;
+}
+
+nav ul li a:hover {
+    text-decoration: overline;
+    color: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #001B39;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li ul li {
+    width: 150px;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    color: #E0F2F5;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+nav ul li ul li a:hover {
+    background-color: #0A2B4A;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+/*כאן מופיעים כל חלקי ההאדר*/
+
+/*כאן יופיע תפריט פירורי לחם*/
+ol{
+    padding: 0;
+    list-style: none;
+    position:relative;
+    right: 20px;
+}
+
+ol a{
+    text-decoration: none;
+}
+
+.breadcrumbs ol li{
+    display: inline-block;
+    
+}
+
+.breadcrumbs ol li:after{
+    content: ">";
+
+}
+
+.breadcrumbs ol li:last-child:after {
+    content: "";
+}
+/*כאן יופיע תפריט פירורי לחם*/
+
+/*כאן יהיה קישור למפת האתר*/
+footer {
+    position: relative;
+    top: 100px;
+    right: 15px;
+    font-size: 22px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+/*כאן יהיה קישור למפת האתר*/
+
+.notActive{
+    cursor: not-allowed;
+}
