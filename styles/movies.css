@@ -21,6 +21,7 @@
     height: 225px;
     border-radius: 8px;
     transition: transform 0.3s;
+    object-fit: cover;
 }
 
 .movie p {
