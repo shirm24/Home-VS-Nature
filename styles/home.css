@@ -1,6 +1,6 @@
 section {
     position: relative;
-    bottom: 40px;
+    bottom: 51px;
     height: 436.11px;
 }
 
@@ -21,12 +21,10 @@ section > div {
     top: 10px;
     right: 80px;
     text-align: right;
-    padding-top: 0px;
 }
 
 #photoHome {
     position: relative;
-    top: 0;
     right: 720px;
     width: 500px;
 }
