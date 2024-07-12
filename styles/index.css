@@ -1,4 +1,9 @@
-﻿/*כאן יהיה האזור הראשי*/
+section img {
+    width: 400px;
+    height: 400px;
+}
+
+/*כאן יהיה האזור הראשי*/
 #homepic {
     width: 30%;
     position: absolute;
