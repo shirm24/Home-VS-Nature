@@ -1,4 +1,14 @@
-﻿#home {
+section {
+    position: relative;
+    height: 436.11px;
+}
+
+section > div {
+    position: relative;
+    bottom: 500px;
+}
+
+#home {
     text-align: right;
     position: relative;
     right: 150px;
@@ -14,9 +24,9 @@
 }
 
 #photoHome {
-    position: absolute;
-    top: 90px;
-    right: 850px;
+    position: relative;
+    top: 0;
+    right: 720px;
     width: 500px;
 }
 
