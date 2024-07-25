@@ -1,0 +1,106 @@
+﻿/*כאן מופיע העיצוב של הטופס*/
+.container { /*ערכי העיצוב של מעטפת הטופס*/
+    width: 35%;
+    position: relative;
+    top: 12px;
+    right: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.section { /*לכל חלק בטופס קיים קלאס זה על מנת ליצור ריווח תחתון בין החלקים השונים*/
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    position: relative;
+    right: 15px;
+}
+
+.buttons { /*יוצר ריווח גמיש עם מרווח בין כפתורי הרדיו*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.submit-button { /*הערכים העיצוביים של הכפתור*/
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #7B9314;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /*הופך את החיווי של העבר מחץ ליד*/
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+}
+/*כאן מופיע העיצוב של הטופס*/
+
+/*כאן מופיע העיצוב של התמונות*/
+.SuitCase { /*הפוזישן מאפשר מיקום של שתי התמונות אחת על השנייה*/
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    width: 45%;
+}
+
+#SuitCasePink { /*על מנת שהיא לא תופיע מעל המזוודה הכחולה בהתחלה*/
+    opacity: 0;
+}
+
+.photos { /*על מנת שלא יראו את התמונות לפני שלוחצים על הכפתורים*/
+    opacity: 0;
+}
+
+#cat {
+    width: 9%; /*גודל התמונה*/
+    position: absolute; /*מאפשר מיקום התמונה על גבי הזוודה*/
+    top: 145px;
+    left: 173px;
+    z-index: 1; /*מאפשר לתמונה להיות על גבי תמונת המזוודה*/
+}
+
+#gloves {
+    width: 7%;
+    position: absolute;
+    top: 169px;
+    left: 332px;
+    z-index: 1;
+}
+
+#hanger {
+    width: 9%;
+    position: absolute;
+    top: 255px;
+    left: 185px;
+    z-index: 1;
+}
+
+#hat {
+    width: 6%;
+    position: absolute;
+    top: 307px;
+    left: 337px;
+    z-index: 1;
+}
+
+#shoes {
+    width: 8%;
+    position: absolute;
+    top: 463px;
+    left: 306px;
+    z-index: 1;
+}
+
+#socks {
+    width: 6%;
+    position: absolute;
+    top: 461px;
+    left: 194px;
+    z-index: 1;
+}
+/*כאן מופיע העיצוב של התמונות*/
